@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App from './containers/App';
+import 'tachyons';
+//import {robots} from './robots'; // if  we have another props(property) like cats, we need to write {robots, cats}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,  
   document.getElementById('root')
 );
 
